@@ -67,8 +67,6 @@ var CommentBox = React.createClass({
   }
 });
    
-   
-   
 // comment list component
 var CommentList = React.createClass({
   render: function() {
@@ -89,7 +87,6 @@ var CommentList = React.createClass({
     
   }
 });
-
 
 
 // comment form component
@@ -119,9 +116,6 @@ var CommentForm = React.createClass({
     )
   }
 });
-
-
-
 
 // render comment box
 React.render(
